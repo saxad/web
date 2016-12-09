@@ -1,0 +1,57 @@
+html body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  position: relative;
+  background-image: url(../image/hj.jpg);
+
+  background-size: 100% 100%;
+  text-align: center;
+  margin-top: -20px;
+
+}
+
+.logo
+{
+  margin-top: 20px;
+  position:absolue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgba(226, 74, 55, 0.2);
+
+
+}
+
+
+header a{
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #5F5E5D;
+
+}
+
+.ligne{
+  border-top: solid 3px #B4B2AE;
+  width: 50px;
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+
+}
+
+
+header p{
+  color: #B4B2AE;
+  padding: 20px;
+}
