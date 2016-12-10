@@ -63,7 +63,7 @@ header p{
   padding: 20px;
 }
 
-.apropos{
+.apropos, .article{
   position: relative;
   margin-left: 20%;
   margin-right: 20%;
@@ -145,9 +145,49 @@ background-color: #5F5E5D;
   color:#DED4B9;
   transition: all ease-in 0.5s;
 }
+.article{
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
 .voir_suite:hover{
   color:#5F5E5D;
   background-color:#DED4B9;
   transition: all 0.5;
 
+}
+.rubrique_container{
+  margin-top: 100px;;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: ;
+  justify-content: center;
+
+}
+
+.rubrique{
+  padding: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  position: relative;
+
+  width: 40%;
+  min-width: 450px;
+  word-wrap: break-word;
+  transition: all ease-in 0.3s;
+
+
+
+}
+
+.rubrique img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+.rubrique:hover{
+
+    box-shadow: 0 0 0 20px #DED4B9 ;
 }
