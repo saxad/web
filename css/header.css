@@ -31,6 +31,7 @@ header ul{
   background-color: rgba(226, 74, 55, 0.2);
 
 
+
 }
 
 
@@ -39,6 +40,12 @@ header a{
   margin-right: 10px;
   margin-left: 10px;
   color: #5F5E5D;
+  transition: all 0.5s;
+
+}
+header a:hover{
+  color: white;
+  font-size: 25px;
 
 }
 
@@ -81,4 +88,66 @@ margin-bottom: 5px;
 }
 .apropos p{
   line-height: 33px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+/*--------------------------------------*/
+.gallerie{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color:#DED4B9;
+  color: #5F5E5D;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+.gallerie .apropos_titre{
+  margin-bottom: 100px;
+
+  padding: 20px;
+  padding-top: 30px;
+
+}
+.aaaa{
+  padding: 20%;
+  background-color:#5F5E5D;
+  color: #F2EEEA;
+}
+.pic_container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+
+}
+.pic_container .element img{
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+}
+.pic_container .element{
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+.voir_suite{
+  display: inline-block;
+  border:2px solid #5F5E5D;
+  width: 25%;
+  padding: 10px;
+  height:auto;
+  margin-bottom: 70px;
+background-color: #5F5E5D;
+
+}
+.voir_suite {
+  text-decoration: none;
+  color:#DED4B9;
+  transition: all ease-in 0.5s;
+}
+.voir_suite:hover{
+  color:#5F5E5D;
+  background-color:#DED4B9;
+  transition: all 0.5;
+
 }
