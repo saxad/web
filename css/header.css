@@ -189,9 +189,23 @@ background-color: #5F5E5D;
 }
 
 .contact{
+  position: relative;
+  overflow: hidden;
   padding: 20%;
   background-color:#5F5E5D;
   color: #F2EEEA;
+}
+.contact .formulaire, .contact .apropos_titre{
+  position: relative;
+  z-index: 10;
+}
+.contact img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.08;
 }
 footer{
   position: relative;
