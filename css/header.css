@@ -108,11 +108,7 @@ margin-bottom: 5px;
   padding-top: 30px;
 
 }
-.aaaa{
-  padding: 20%;
-  background-color:#5F5E5D;
-  color: #F2EEEA;
-}
+
 .pic_container{
 
   display: flex;
@@ -190,4 +186,15 @@ background-color: #5F5E5D;
 .rubrique:hover{
 
     box-shadow: 0 0 0 20px #DED4B9 ;
+}
+
+.contact{
+  padding: 20%;
+  background-color:#5F5E5D;
+  color: #F2EEEA;
+}
+footer{
+  position: relative;
+  text-align: center;
+  padding: 20px;
 }
